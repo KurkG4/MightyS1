@@ -1,0 +1,95 @@
+{
+    "description": "Flex 2 Project File",
+    "name": "mighty",
+    "objects": [
+        {
+            "name": "mighty",
+            "palettes": [
+                {
+                    "path": "pallet\\sonic.bin",
+                    "length": 1
+                }
+            ],
+            "art": {
+                "path": "artunc\\sonic.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "_maps\\Sonic.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "_inc\\Sonic dynamic pattern load cues.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "HUD1",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\hud.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\obj21.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "HUD2",
+            "palettes": [],
+            "art": {
+                "path": "artunc\\HUD.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "",
+            "palettes": [],
+            "art": {
+                "path": "D:\\Kyukyoku\\Kyukyoku\\artunc\\Mighty.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "D:\\Kyukyoku\\Kyukyoku\\_maps\\Mighty.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "D:\\Kyukyoku\\Kyukyoku\\_inc\\Mighty dynamic pattern load cues.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        }
+    ]
+}
