@@ -41662,7 +41662,7 @@ SoundA0:	incbin	sound\soundA0.bin
 		even
 SoundA1:	incbin	sound\soundA1.bin
 		even
-SoundA2:	incbin	sound\PeeloutCharge.bin
+SoundA2:	incbin	sound\soundA2.bin
 		even
 SoundA3:	incbin	sound\soundA3.bin
 		even
